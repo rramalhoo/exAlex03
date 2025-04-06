@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex alex 03</title>
+    <script src="script.js"></script>
+</head>
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+</style>
+<body>
+    <h1>EX1 valor de venda</h1>
+    <input type="number" id="valorVenda" placeholder="Valor da venda:">
+    <select id="OpnParcelamento">
+        <option value="aVista">À Vista</option>
+        <option value="prazo30">A Prazo 30 dias</option>
+        <option value="prazo60">A Prazo 60 dias</option>
+        <option value="prazo90">A Prazo 90 dias</option>
+        <option value="debito">Cartão de Débito</option>
+        <option value="credito">Cartão de Crédito</option>
+    </select>
+    <button onclick="Parcelamento()">Valor da venda</button>
+    <p id="resposta"></p>
+
+</body>
+</html>
