@@ -25,3 +25,20 @@ function Parcelamento() {
 
     document.getElementById("resposta").innerHTML = msg
 }
+
+function Estacao(){
+    let estacao = document.getElementById("estacao").value
+    let msg = ''
+
+    if(estacao === "verao"){
+        msg = 'São os meses: Janeiro, Fevereiro, Março'
+    }else if (estacao === "outono"){
+        msg = 'São os meses: Abril, Maio, Junho'
+    }else if (estacao === "inverno"){
+        msg = 'São os meses: Julho, Agosto, Setembro'
+    }else if (estacao === "primavera"){
+        msg = 'São os meses: Outubro, Novembro, Dezembro'
+    }
+
+    document.getElementById("resposta2").innerHTML = msg
+}
